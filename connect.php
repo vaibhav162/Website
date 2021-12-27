@@ -1,0 +1,12 @@
+<?php
+$s1='localhost:3306';
+$u1="root";
+$p1="";
+$d1="electricity";
+$conn=mysqli_connect($s1,$u1,$p1,$d1);
+if(!$conn)
+{
+echo'error'.mysqli_connect_errno();
+echo'<br>error'.mysqli_connect_error();
+}
+?>
